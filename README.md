@@ -1,4 +1,4 @@
-# Javascript-Tutorial
--> Display Data in Table
--> RESP API - fetch, edit, delete
+# Javascript-Tutorial </br>
+-> Display Data in Table </br>
+-> RESP API - fetch, edit, delete  </br>
 -> Local & Session Storage
