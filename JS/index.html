@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  
+    <title>Fetch</title>
+  </head>
+
+  <body>
+    
+    <script src= "index.js"></script>
+    <!-- 
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/app.js"></script> -->
+    <link rel="stylesheet" href="index.css">
+    <button type="button" class="collapsible">ADD /  UPDATE USER:</button>
+    <div class="content">
+
+      <button class="add_user" onclick="adder()">Add User</button>
+      <div1>
+        <input type="text" id="name" placeholder="Name">
+
+
+        <input type="text" id="email" placeholder="Email">
+      </div1>
+      <div2>
+
+        <input type="text" id="gender" placeholder="Gender">
+
+        <input type="text" id="status" placeholder="Status" margin: 8px><br><br>
+      </div2>
+    </div>
+    <button id="prev" onclick="prefun()">Prev</button>
+    <input type="text" id="myInput" onkeyup="Find()" placeholder="Page Number..">
+    <button id='next' onclick="nexfun()">Next</button>
+    <br>
+    <input type="text" id="myId" placeholder="User ID">
+    <button id="finding" onclick="search()">Find</button>
+    <br>
+    <button id="LoadCache" onclick="show()">GetfromCache</button>
+    <h3>Fetch User Data
+    </h3>
+    <table id="userList" border="1">
+      <thead id="x"></thead>
+      <tbody id="y"></tbody>
+    </table>
+    <table id="list" border="1" class="table table-stripped ">
+    <tbody id="data1"></tbody>
+    </table>
+
+  </body>
+
+</html>
+
